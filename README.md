@@ -217,7 +217,7 @@ else:
     print("El error relativo es: "+str(agua)+"% (arriba del 0.1%). No es una buena aproximacion")
 ```
 - En este caso gracias al haber realizado el proceso con la funcion seno anteriormente simplemente necesitamos hacer unos pocos cambios:
-- en vez de importar la funcion seno importamos la funcion acto tangente
+- en vez de importar la funcion seno importamos la funcion arco tangente
 - al ingresar x antes de seguir se aplica un condicional que nos compruebe esta no esta fuera del rango [-1,1], si esto si esto no es asi se continuara el codigo, pero si lo es se terminara
 - en nuestra variable m (conocida en este codigo como z) en vez de que toda la funcion sea divida por el factor de 2i+1 lo cambiamos por 2i+1 sin mas
 - El restro del proceso es el mismo
