@@ -40,7 +40,7 @@ for i in range(n,1,-2):
 - Declaramos una variable i la cual representara el numero par y otro ingresable por teclado el cual representara el numero desde el cual se empezara a imprimir numero pares
 - Creamos un condicional if el cual evalue si el numero es par, en caso de que no sea (comprobable a partir de comparar la igualdad de su division y su division exacta) entrara en el condicional donde se le disminuira 1 para que el numero sera par
 - En caso de salir del condicional o en caso de ser un numero par se aplicara un bucle for, este hara pasar i por todos los numeros desde n hasta 2, disminuyendo en 2 el valor de i por cada paso del bucle. Dentro del bucle se imprime el valor actual de i
-- Esto resultara en eque se impriminan los numeros pares, bajando de n (o n-1 si n era impar) hasta 2.
+- Esto resultara en que se impriminan los numeros pares, bajando de n (o n-1 si n era impar) hasta 2.
 ## Ejercicio 4
 Imprimir los números de 1 hasta un número natural n dado, cada uno con su respectivo factorial
 ```python
